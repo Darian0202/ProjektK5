@@ -6,12 +6,19 @@ body {
 header{
     font-size: 3vw;
     font-family: papyrus, fantasy;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
 }
 
 .menu {
-    font-family: papyrus, fantasy;
+    font-size: 1.2vw;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: papyrus, fantasy;  
+    border-style: solid;
+    
 }
 
 ul {
