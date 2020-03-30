@@ -18,9 +18,10 @@ header{
 .menu {
     color: beige;
     font-size: 1.2vw;
-    width: 200px;
-    margin-left: 30px;
-    margin-top: 20px;
+    width: 15vw;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
     font-family: papyrus, fantasy;  
     border-style: solid;
     
