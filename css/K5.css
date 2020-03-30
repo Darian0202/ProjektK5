@@ -27,6 +27,30 @@ header{
     
 }
 
+.burger-menu {
+    display: none;
+}
+
+@media (max-width: 1000px)
+{
+.menu {
+    display: none;
+}
+
+  
+}
+
+@media (min-width: 1000px)
+{
+    .burger-menu-button {
+        display: none;
+        align-content: center;
+    }
+
+.burger-menu-button {
+    padding-left: 100px;
+}
+
 ul {
     list-style: none;
 }

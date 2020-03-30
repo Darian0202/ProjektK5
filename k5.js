@@ -1,15 +1,17 @@
 const burgerMenuButton = document.querySelector(".burger-menu-button");
 burgerMenuButton.addEventListener("click", toggleBurgerMenu);
 const burgerMenu = document.querySelector(".burger-menu");
-let burgerMenuOpel = false;
+let burgerMenuOpen = false;
+
 
 function toggleBurgerMenu()
 {
     burgerMenuOpen = !burgerMenuOpen;
     if (burgerMenuOpen) {
         burgerMenu.style.display = "block";
-    }
-    else {
+    } 
+    else
+    {
         burgerMenu.style.display = "none";
     }
 }
