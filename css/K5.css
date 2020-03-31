@@ -37,6 +37,7 @@ header{
     display: none;
 }
 
+
   
 }
 
@@ -44,12 +45,16 @@ header{
 {
     .burger-menu-button {
         display: none;
-        align-content: center;
+        align-content: top;
     }
 
-.burger-menu-button {
-    padding-left: 100px;
 }
+
+nav {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
 
 ul {
     list-style: none;
