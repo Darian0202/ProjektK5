@@ -30,6 +30,12 @@ header{
     
 }
 
+.menu:hover{
+    color: rebeccapurple;
+    transition: 1s;
+    opacity: 1;
+}
+
 .burger-menu{
     display: none;
 }
@@ -67,6 +73,12 @@ ul {
     text-decoration: none;
     color: beige;
     font-size: 1vw;
+}
+
+.menu a:hover {
+    opacity: 1;
+    transition: 0,7s;
+    color: rebeccapurple;
 }
 
 h1 {
