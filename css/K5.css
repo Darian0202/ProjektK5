@@ -8,29 +8,33 @@ body {
 header{
     font-size: 3vw;
     font-family: papyrus, fantasy;
-    padding-left: 30px;
+    text-align: center;
     padding-top: 30px;
     color: beige;
     
 }
-
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
 .menu {
+    grid-column: 2/3;
+    text-align: center;
     color: beige;
-    font-size: 1.2vw;
-    width: 15vw;
-    height: 20vw;
-    margin-left: 5vw;
+    border-width: 5px;
     margin-top: 5vw;
-    font-family: papyrus, fantasy;  
-    border-style: solid;
+    font-family: papyrus, fantasy; 
+    border-style: dashed;
+    text-align: center; 
+    
     
 }
 
-.burger-menu {
+.burger-menu{
     display: none;
 }
 
-@media (max-width: 1000px)
+@media (max-width: 1150px)
 {
 .menu {
     display: none;
@@ -40,7 +44,7 @@ header{
   
 }
 
-@media (min-width: 1000px)
+@media (min-width: 1150px)
 {
     .burger-menu-button {
         display: none;
@@ -54,14 +58,15 @@ nav {
     padding-top: 50px;
 }
 
-
 ul {
     list-style: none;
+    
 }
 
 .menu a{
     text-decoration: none;
     color: beige;
+    font-size: 1vw;
 }
 
 h1 {
@@ -81,13 +86,18 @@ h2 {
 p, li {
     font-family: papyrus, fantasy;
     color: beige;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
-    left: 1vw;
+    
 
 }
 
 .heading {
     font-size: 40px;
     font-family: papyrus, fantasy;
+}
+
+.burger-menu{
+   background-color: beige;
+
 }
