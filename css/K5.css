@@ -45,7 +45,17 @@ header{
     display: none;
 }
 
-
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+  }
   
 }
 
