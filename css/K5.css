@@ -88,24 +88,51 @@ h1 {
     text-align: center;
 }
 
-p, li {
-    font-family: papyrus, fantasy;
-    color: beige;
-    font-size: 30px;
-    position: relative;
-    
-
-}
-
 .heading {
     font-size: 40px;
     font-family: papyrus, fantasy;
 }
 
+.container2 {
+    display: grid;
+    grid-gap: 60px;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 5%;
+}
 .visualHidden {
-    display: none;
+    color: beige;
+    font-family: papyrus, fantasy;
+    font-size: 40px;
+
 }
 
 .visualHidden:hover {
-    display: block;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    font-size: 0;
+    transition: 1s;
+}
+
+.visualHidden:hover:after {
+    content: attr(data-hover);
+    font-size: 30px;
+}
+
+.a {
+    grid-row: 1;
+}
+
+.b {
+    grid-row: 2;
+}
+
+.c {
+    grid-row: 3;
+}
+
+.d {
+    grid-row: 4;
 }
