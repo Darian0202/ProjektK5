@@ -35,8 +35,7 @@ header{
     transition: 1s;
     opacity: 1;
 }
-
-.burger-menu{
+.burger-menu {
     display: none;
 }
 
@@ -81,14 +80,8 @@ ul {
     color: rebeccapurple;
 }
 
-h1 {
-    color: beige;
-    font-size: 60px;
-    font-family: papyrus, fantasy;
-    text-align: center;
-}
 
-h2 {
+h1 {
     color: beige;
     font-size: 45px;
     font-family: papyrus, fantasy;
@@ -109,7 +102,10 @@ p, li {
     font-family: papyrus, fantasy;
 }
 
-.burger-menu{
-   background-color: beige;
+.visualHidden {
+    display: none;
+}
 
+.visualHidden:hover {
+    display: block;
 }
