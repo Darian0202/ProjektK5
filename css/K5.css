@@ -35,15 +35,30 @@ header{
     transition: 1s;
     opacity: 1;
 }
+
 .burger-menu {
     display: none;
 }
 
+@media (min-width: 1150px)
+{
+    .burger-menu-button {
+        display: none;
+        align-content: top;
+    }
+
+}
 @media (max-width: 1150px)
 {
 .menu {
     display: none;
 }
+
+
+}
+
+
+
 
 button {
     padding: 10px 15px;
@@ -56,17 +71,6 @@ button {
     border: none;
     border-radius: 15px;
   }
-  
-}
-
-@media (min-width: 1150px)
-{
-    .burger-menu-button {
-        display: none;
-        align-content: top;
-    }
-
-}
 
 nav {
     padding-left: 25px;
@@ -158,6 +162,7 @@ h1 a{
     bottom: 0;
     width: 100%;
     height: 4rem;
+    
 
 }
 
@@ -170,4 +175,8 @@ h1 a{
     outline:none;
     font-family: papyrus, fantasy;
     font-size: 2vw;
+}
+
+.contact {
+    display: none;
 }
