@@ -179,4 +179,7 @@ h1 a{
 
 .contact {
     display: none;
+    position: relative;
+    margin-bottom: 1vw;
+    font-size: 2vw;
 }
