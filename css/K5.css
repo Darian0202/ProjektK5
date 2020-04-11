@@ -1,9 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #455fa8;
+    background-image: url("space.png");
 
 }
+
+
 
 header{
     font-size: 3vw;
@@ -36,24 +38,39 @@ header{
     opacity: 1;
 }
 
-.burger-menu {
-    display: none;
-}
 
-@media (min-width: 1150px)
+
+@media (min-width: 1000px)
 {
     .burger-menu-button {
         display: none;
         align-content: top;
     }
+.burger-menu{
+    visibility: hidden;
 
 }
-@media (max-width: 1150px)
+}
+
+.burger-menu {
+    border: solid;
+    border-radius: 5px; 
+    width: max-content;
+    height: max-content; 
+}
+
+.burger-menu a {
+    text-decoration: none;
+    color: beige;
+    font-family: papyrus, fantasy;
+    
+}
+
+@media (max-width: 1000px)
 {
-.menu {
+    .menu {
     display: none;
-}
-
+    }
 
 }
 
@@ -72,7 +89,10 @@ button {
     border-radius: 15px;
   }
 
-
+nav {
+    padding-left: 25px;
+    padding-top: 50px;
+}
 
 ul {
     list-style: none;
