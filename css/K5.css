@@ -72,10 +72,7 @@ button {
     border-radius: 15px;
   }
 
-nav {
-    padding-left: 25px;
-    padding-top: 50px;
-}
+
 
 ul {
     list-style: none;
@@ -157,8 +154,8 @@ h1 a{
 }
 
 .footer {
-    text-align: center;
     position: absolute;
+    text-align: center;
     bottom: 0;
     width: 100%;
     height: 4rem;
