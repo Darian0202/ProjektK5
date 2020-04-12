@@ -1,22 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(-70deg,#09203f, #537895, #00c97f, #52ff97, #fffb1c, #ff771c, #ff1c1c, #ff1c82, #a81cff);
-    background-size: 1000% 1000%;
-    animation: gradient 50s ease infinite;
+    background: url("stars.jpg.jpg");
+
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 
 header{
@@ -185,22 +173,17 @@ h1 a{
     grid-row: 4;
 }
 
-.contactDiv {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-footer {
+.footer {
     position: absolute;
-    grid-column: 2/3;
     text-align: center;
     bottom: 0;
     width: 100%;
     height: 4rem;
+    
+
 }
 
 .contact-button {
-    
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -208,7 +191,7 @@ footer {
     overflow: hidden;
     outline:none;
     font-family: papyrus, fantasy;
-    font-size: 100%;
+    font-size: 2vw;
 }
 
 .contact {
